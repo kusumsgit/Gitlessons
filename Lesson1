@@ -1,0 +1,30 @@
+# Lesson 1: For all who are new to Github these are few important terminologies:
+Local repository (repository/files in your local machine or system)
+Remote repository (repository/files in Github.com)
+Push: To upload local repository content in remote repository
+Pull: To download content from a remote repository and immediately update the local repository to match that content.
+
+## How to Clone a Repository (Cloning a repository means when you copy a repository from Github.com to your local machine)
+
+Step 1: First Go to Github and select the Green <Code> tab
+
+Step 2: Under this tab there are three options for cloning HTTP, SSH and Github CLI; Copy the Http link as we will use it in an upcoming step.
+
+Note: The following instructions are applicable when you choose HTTP option for cloning
+
+Step 3: Go to your terminal; I was using Gitbash so I went in Gitbash and for convenience first I made a new directory named Git.
+Step 4: mkdir git
+Step 5: cd git
+Step 6: git clone <paste the HTTP link that we copied earlier from Github.com) (it will be something like this https://github.com/nameofrepository.git)
+Step 7: ls (you can see that what is inside the repository for example lets say ls command shows you a directory named Linux and now you want to go inside Linux)
+Step 8: cd Linux
+Step 9: ls (To see what is all there inside Linux)
+
+### Now to make your file inside this directory you can use anything touch, nano or vi command; I used
+
+Step 10: vi filename (it will create a new file)
+Step 11:  press i (to edit your file)
+Step 12:  ls (to check the file you just created is in there)
+Step 13:  git add . (To promote pending changes in the working directory. You can also use git -A. To choose files of a particular extension use git add *.txt for all txt files, add *.java for all java files etc.)
+Step 14:  git commit -m "message" (git commit cammand is used to create a snapshot of the staged changes along a timeline of gitprojects history; in the message section whatever changes you did to your file you can add a message regarding that)
+Step 15:  git push (To upload local repository content to a remote repository)
