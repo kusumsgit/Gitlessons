@@ -1,0 +1,16 @@
+How to create a  branch in github:
+1. Go to your github and clone your repo (I am using gitbash)
+2. ls (you can see the repo now)
+3. cd (reponame)
+4. git checkout -b test (test is the new branch name)
+5. you are switched inside test now do ls (we can see that we have a readme.md file inside test
+6. vi newfile1
+7. ls
+8. git add .
+9. git commit -m "leraning to branch"
+10. git push ( a message will come saying the current branch test has no upstream branch)
+
+11. git push --set-upstream origin test
+12. git branch (you will now see main and test as your output
+13. git checkout main (switched to branch main)
+14. ls
