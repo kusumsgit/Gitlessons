@@ -14,3 +14,11 @@ How to create a  branch in github:
 12. git branch (you will now see main and test as your output
 13. git checkout main (switched to branch main)
 14. ls
+## Git Commands
+git remote -v (to look at remote repository)
+
+git branch -a
+
+git remote set-url origin (paste ssh from github)
+
+
