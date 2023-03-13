@@ -21,4 +21,6 @@ git branch -a
 
 git remote set-url origin (paste ssh from github)
 
+git remote set-url origin (paste the url like http or ssh or gitlab etc)
 
+!144 
