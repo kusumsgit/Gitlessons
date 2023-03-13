@@ -1,4 +1,4 @@
-How to create a  branch in github:
+## How to create a  branch in github:
 1. Go to your github and clone your repo (I am using gitbash)
 2. ls (you can see the repo now)
 3. cd (reponame)
@@ -14,7 +14,7 @@ How to create a  branch in github:
 12. git branch (you will now see main and test as your output
 13. git checkout main (switched to branch main)
 14. ls
-## Git Commands
+### Git Commands
 git remote -v (to look at remote repository)
 
 git branch -a
