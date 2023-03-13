@@ -24,3 +24,26 @@ git remote set-url origin (paste ssh from github)
 git remote set-url origin (paste the url like http or ssh or gitlab etc)
 
 !144 
+To access your github from your terminal:
+use ssh option and if you don't have ssh key you can generate
+a key by the following command
+go to your ssh folder in your terminal 
+cd ~/.ssh
+
+ssh-keygen -t ed25519 -C" GitSSHKey"
+ls
+cat githubkey.pub
+chmod 400 githubkey
+
+ssh -add -l
+
+
+error ssh agent is not active then you can mention the following
+command
+
+
+We need to active the agent.
+eval "$(ssh-agent -s)" > Agent pid 59566
+
+eval `ssh-agent`
+^^
