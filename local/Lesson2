@@ -47,3 +47,6 @@ eval "$(ssh-agent -s)" > Agent pid 59566
 
 eval `ssh-agent`
 ^^
+few important git commands:
+git branch -a to keep a track of branch and main
+git push -u origin dev
