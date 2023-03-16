@@ -52,4 +52,10 @@ git branch -a to keep a track of branch and main
 git push -u origin dev
 
 git rebase (when you want to add changes on top of everyone else's change in repo)
- 
+ If while doing git push you get the below 
+Error: 
+
+fatal: The current branch dev has no upstream branch. 
+
+git branch --set-upstream-to=origin/dev
+
