@@ -30,3 +30,30 @@ User [Github Name]
 
 
 17. Run command: ssh git@github.com -T (This successfully authenticates connection between local host and remote host)Testing
+
+
+
+We created a folder which has aws_notes.md file
+(the folder must be named with your initials like for Kusum Sharma I created a folder ks)
+
+1. login to gitlab
+2. click on the top right corner under the logo go to preferences
+3. then go to ssh
+4. to create a ssh key go to your terminal and 
+do the following commands:
+
+for ED25519
+i>. ssh-keygen -t ed25519 -C "<comment>"
+for 2048-bit RSA
+ssh-keygen -t rsa -b 2048 -C "<comment>"
+
+ii>. Press Enter and Output similar to the following is displayed:
+
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519):
+
+iii>. Accept the suggested filename and directory, unless you are generating a deploy key or want to save in a specific directory where you store other keys.
+
+5. If your ssh agent is not active run the following command
+eval $(ssh-agent -s) 
+
